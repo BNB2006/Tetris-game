@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="game-container">
+        
+        <div id="controls">
+            <div id="game-header">
+                <h1 style="color: rgb(193, 58, 56);">Tetris Game</h1>
+                <button id="startButton" style="color: aqua;">Start Game</button>
+                <button id="exitButton" disabled style="color: aqua;">Exit Game</button>
+            </div>
+            <div style="color: aqua;">Controls:</div>
+            <div><b style="color: rgb(206, 95, 51);">W</b> - Rotate</div>
+            <div><b style="color: rgb(186, 218, 43);">A</b> - Move Left</div>
+            <div><b style="color: rgb(47, 218, 84);">D</b> - Move Right</div>
+            <div><b style="color: rgb(196, 25, 25);">S</b> - Move Down</div>
+        </div>
+        <div id="score">Score</div>
+        
+        <div>
+            <canvas id="tetrisCanvas" width="300" height="600"></canvas>
+        </div>
+    </div>
+
+    <script src="main.js"> </script>
+</body>
+</html>
