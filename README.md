@@ -2,7 +2,7 @@
 
 A simple Tetris game built using HTML5, CSS3, and JavaScript. This classic arcade game features a user interface with buttons to start and exit the game, as well as a scoreboard to track your progress. The game includes basic controls, including the ability to rotate and move the falling pieces.
 
-![output](output.png)
+![output](game.png)
 ## Features
 - **Tetris Gameplay**: Rotate, move, and stack falling blocks.
 - **Score Tracking**: Displays your current score based on cleared lines.
@@ -22,6 +22,7 @@ A simple Tetris game built using HTML5, CSS3, and JavaScript. This classic arcad
     - **S**: Move the current piece down faster.
 3. **Clear Lines**: Complete horizontal lines to clear them and earn points.
 4. **Game Over**: The game ends when a new piece cannot be placed because of the filled board.
+
 
 ## Installation
 
