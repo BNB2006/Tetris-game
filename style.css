@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("background.jpg");
+  background: url("bg.jpg");
 }
 
 .game-container {
